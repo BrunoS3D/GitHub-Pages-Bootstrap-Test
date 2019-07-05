@@ -7,18 +7,102 @@
 	<!-- Required meta tags -->
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
+	<title>Pages + Bootstrap</title>
 	<!-- Bootstrap CSS -->
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
 
 <body>
-	<section class="jumbotron text-center">
+	<nav class="navbar navbar-expand navbar-dark" style="background-color: rgb(55, 55, 55);">
 		<div class="container">
-			<h1 class="jumbotron-heading">Hello World</h1>
+			<div class="collapse navbar-collapse" id="navbar">
+				<ul class="navbar-nav mr-auto">
+					<li class="nav-item active">
+						<a class="nav-link" href="#">Home</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">News</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Projects</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Community</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">About us</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<section class="jumbotron">
+		<div class="container">
+			<h1 class="jumbotron-heading display-4">Hello World!</h1>
 			<p class="lead text-muted">I'm hosted with GitHub Pages.</p>
+			<hr class="my-3">
+			<p>I am a page powered by GitHub and stylized by Bootstrap.</p>
+			<p class="lead">
+				<a class="btn btn-primary btn-lg" href="https://github.com/BrunoS3D/Pages-N-Bootstrap" role="button">Return to GitHub »</a>
+			</p>
 		</div>
 	</section>
+
+	<footer class="container py-5">
+		<div class="row">
+			<div class="col-12 col-md">
+				<small class="d-block text-muted">Bruno Silva :v</small>
+				<small class="d-block mb-3 text-muted">© 2019 -
+					<!-- Update year -->
+					<script type="text/javascript">
+						var today = new Date();
+						var year = today.getFullYear();
+						document.write(year);
+
+					</script>
+				</small>
+			</div>
+			<div class="col-6 col-md">
+				<h5>Features</h5>
+				<ul class="list-unstyled text-small">
+					<li><a class="text-muted" href="#">Cool stuff</a></li>
+					<li><a class="text-muted" href="#">Random feature</a></li>
+					<li><a class="text-muted" href="#">Team feature</a></li>
+					<li><a class="text-muted" href="#">Stuff for developers</a></li>
+					<li><a class="text-muted" href="#">Another one</a></li>
+					<li><a class="text-muted" href="#">Last time</a></li>
+				</ul>
+			</div>
+			<div class="col-6 col-md">
+				<h5>Resources</h5>
+				<ul class="list-unstyled text-small">
+					<li><a class="text-muted" href="#">Resource</a></li>
+					<li><a class="text-muted" href="#">Resource name</a></li>
+					<li><a class="text-muted" href="#">Another resource</a></li>
+					<li><a class="text-muted" href="#">Final resource</a></li>
+				</ul>
+			</div>
+			<div class="col-6 col-md">
+				<h5>Resources</h5>
+				<ul class="list-unstyled text-small">
+					<li><a class="text-muted" href="#">Business</a></li>
+					<li><a class="text-muted" href="#">Education</a></li>
+					<li><a class="text-muted" href="#">Government</a></li>
+					<li><a class="text-muted" href="#">Gaming</a></li>
+				</ul>
+			</div>
+			<div class="col-6 col-md">
+				<h5>About</h5>
+				<ul class="list-unstyled text-small">
+					<li><a class="text-muted" href="#">Team</a></li>
+					<li><a class="text-muted" href="#">Locations</a></li>
+					<li><a class="text-muted" href="#">Privacy</a></li>
+					<li><a class="text-muted" href="#">Terms</a></li>
+				</ul>
+			</div>
+		</div>
+	</footer>
 
 	<!-- Optional JavaScript -->
 	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
